@@ -1,0 +1,177 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NBA - National Basketball Association</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b2545;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f58220;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #13294b;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #f58220;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffffff;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 3px solid #f58220;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        article p {
+            line-height: 1.6;
+        }
+        .players-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .player-card {
+            background-color: #1c3c72;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        .player-card img {
+            width: 100%;
+            border-radius: 8px;
+            max-height: 250px;
+            object-fit: cover;
+        }
+        .player-card h3 {
+            margin: 10px 0 5px;
+        }
+        .player-card p {
+            font-size: 0.9em;
+            color: #d6d6d6;
+        }
+        footer {
+            background-color: #13294b;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            color: #bbb;
+        }
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 8px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="gambar/gambar_1.jpg" alt="">
+    <header>
+        <h1>NBA - Nigga Basketball Association/nasi bakar axa</h1>
+    </header>
+    <nav>
+        <a href="#about">Tentang NBA</a>
+        <a href="#teams">Tim Unggulan</a>
+        <a href="#players">Pemain Populer</a>
+        <a href="#history">Sejarah</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Tentang NBA</h2>
+            <article>
+                <p>NBA (National Basketball Association) adalah liga bola basket profesional terbesar di Amerika Serikat dan dunia. NBA didirikan pada tahun 1946 dan telah berkembang menjadi salah satu liga olahraga paling populer di dunia dengan banyak penggemar di seluruh dunia.</p>
+                <p>NBA terdiri dari 30 tim yang dibagi ke dalam dua konferensi, yaitu Konferensi Timur dan Konferensi Barat. Setiap tim berkompetisi selama musim reguler untuk memperebutkan tiket ke playoff yang sangat kompetitif.</p>
+            </article>
+        </section>
+
+        <section id="teams">
+            <h2>Tim Unggulan NBA</h2>
+            <article>
+                <ul>
+                    <li>Los Angeles Lakers</li>
+                    <li>Golden State Warriors</li>
+                    <li>Boston Celtics</li>
+                    <li>Chicago Bulls</li>
+                    <li>Miami Heat</li>
+                    <li>Brooklyn Nets</li>
+                    <li>Milwaukee Bucks</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="players">
+            <h2>Pemain Populer NBA</h2>
+            <div class="players-list">
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/LeBron_James_Lakers_2022.jpg" alt="LeBron James" />
+                    <h3>LeBron James</h3>
+                    <p>Posisi: Forward</p>
+                    <p>Tim: Los Angeles Lakers</p>
+                </div>
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Stephen_Curry_2016.jpg" alt="Stephen Curry" />
+                    <h3>Stephen Curry</h3>
+                    <p>Posisi: Guard</p>
+                    <p>Tim: Golden State Warriors</p>
+                </div>
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Kevin_Durant_2021.jpg" alt="Kevin Durant" />
+                    <h3>Kevin Durant</h3>
+                    <p>Posisi: Forward</p>
+                    <p>Tim: Phoenix Suns</p>
+                </div>
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Nikola_Joki%C4%87_2022.jpg" alt="Nikola Jokić" />
+                    <h3>Nikola Jokić</h3>
+                    <p>Posisi: Center</p>
+                    <p>Tim: Denver Nuggets</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="history">
+            <h2>Sejarah NBA</h2>
+            <article>
+                <p>NBA didirikan pada tahun 1946 dengan nama Basketball Association of America (BAA) dan bergabung dengan National Basketball League (NBL) pada tahun 1949 untuk membentuk NBA seperti sekarang.</p>
+                <p>Beberapa pemain legendaris yang pernah bermain di NBA antara lain Michael Jordan, Magic Johnson, Larry Bird, dan Kareem Abdul-Jabbar. NBA telah menjadi panggung bagi banyak bintang besar dan momen-momen bersejarah dalam dunia olahraga.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 NBA Fanpage. All rights reserved.
+    </footer>
+    <h2>KARYA AXA HEDRAT ATALA</h2>
+</body>
+</html>
